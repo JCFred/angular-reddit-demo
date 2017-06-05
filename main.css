@@ -1,0 +1,77 @@
+html,body {
+  margin: 0;
+}
+
+main {margin: 50px;}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.col {
+  flex-direction: column;
+  text-align: left;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.spacey {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.imgUrl {
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.tiny {
+  background-color: lightgrey;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.tiny a, .tiny label {
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.tiny a:hover {
+  background-color: black;
+  color: #DA7A0D;
+}
+
+.thick {
+  background-color: #FF851B;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.thick h1 {
+  margin: 0;
+}
+
+.thick img {
+  height: 60px;
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+.line {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-left: 15px;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "angular-reddit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "dependencies": {
+    "angular": "1.6.0",
+    "angular-moment": "^1.0.1",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
